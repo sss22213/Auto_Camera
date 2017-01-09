@@ -1,0 +1,77 @@
+﻿Build started 2016/05/05 下午 05:58:37.
+     1>Project "C:\project\AR\webcam\VC\first\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\opencv\build\include /IC:\opencv\build\include\opencv /IC:\opencv\build\include\opencv2 /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\ConsoleApplication1.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib ConsoleApplication1.cpp MyForm.cpp
+         ConsoleApplication1.cpp
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(198): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(307): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(359): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(352) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(330) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(362): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(352) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(330) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(406): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(398) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(379) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(409): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(398) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(379) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(209): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(210): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(211): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(212): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+         MyForm.cpp
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(65): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(198): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(307): warning C4552: '-' : operator has no effect; expected operator with side-effect
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(359): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(352) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(330) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(362): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(352) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(330) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(406): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(398) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(379) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(409): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(398) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\../user/core.h(379) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(209): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(210): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(211): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+     1>c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(212): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(201) : definition of 'i' ignored
+                 c:\project\ar\webcam\vc\first\consoleapplication1\consoleapplication1\MyForm.h(156) : definition of 'i' used
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\project\AR\webcam\VC\first\ConsoleApplication1\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Release\ConsoleApplication1.MyForm.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\project\AR\webcam\VC\first\ConsoleApplication1\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /SAFESEH Release\app.res
+         Release\AssemblyInfo.obj
+         Release\ConsoleApplication1.obj
+         Release\MyForm.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+     1>opencv_ts2411.lib(opencv_ts_pch.obj) : warning LNK4099: PDB 'opencv_ts2411.pdb' was not found with 'opencv_ts2411.lib(opencv_ts_pch.obj)' or at 'C:\project\AR\webcam\VC\first\ConsoleApplication1\Release\opencv_ts2411.pdb'; linking object as if no debug info
+         ConsoleApplication1.vcxproj -> C:\project\AR\webcam\VC\first\ConsoleApplication1\Release\ConsoleApplication1.exe
+     1>Done Building Project "C:\project\AR\webcam\VC\first\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.35
